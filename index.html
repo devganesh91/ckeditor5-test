@@ -38,45 +38,250 @@
 			<div class="row row-editor">
 				<div class="editor-container">
 					<div class="editor">
-						<h2>Bilingual Personality Disorder</h2>
-						<p>
-							This may be the first time you hear about this made-up disorder but
-							it actually isn’t so far from the truth. Even the studies that were conducted almost half a
-							century show that
-							<strong>the language you speak has more effects on you than you realise</strong>.
-						</p>
-						<p>
-							One of the very first experiments conducted on this topic dates back to 1964.
-							<a
-								href="https://www.researchgate.net/publication/9440038_Language_and_TAT_content_in_bilinguals">In
-								the experiment</a>
-							designed by linguist Ervin-Tripp who is an authority expert in psycholinguistic and
-							sociolinguistic studies,
-							adults who are bilingual in English in French were showed series of pictures and were asked
-							to create 3-minute stories.
-							In the end participants emphasized drastically different dynamics for stories in English and
-							French.
-						</p>
-						<p>
-							Another ground-breaking experiment which included bilingual Japanese women married to
-							American men in San Francisco were
-							asked to complete sentences. The goal of the experiment was to investigate whether or not
-							human feelings and thoughts
-							are expressed differently in <strong>different language mindsets</strong>.
-							<Here>is a sample from the the experiment:</Here>
-						</p>
-						<p>
-							More recent <a href="https://books.google.pl/books?id=1LMhWGHGkRUC">studies</a> show, the
-							language a person speaks affects
-							their cognition, behaviour, emotions and hence <strong>their personality</strong>.
-							This shouldn’t come as a surprise
-							<a href="https://en.wikipedia.org/wiki/Lateralization_of_brain_function">since we already
-								know</a> that different regions
-							of the brain become more active depending on the person’s activity at hand. Since structure,
-							information and especially
-							<strong>the culture</strong> of languages varies substantially and the language a person
-							speaks is an essential element of daily life.
-						</p>
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+
+
+## Horizontal Rules
+
+___
+
+---
+
+***
+
+
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
+
+
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with \`+\`, \`-\`, or \`*\`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as \`1.\`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline \`code\`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+\`\`\`
+Sample text here...
+\`\`\`
+
+Syntax highlighting
+
+\`\`\` js
+var foo = function (bar) {
+return bar++;
+};
+
+console.log(foo(5));
+\`\`\`
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+[Link without schema - auto add schema](flipkart.com)
+
+[Custom schema](lol://flipkart.com)
+
+[Not a link](hi flipkart.com)
+
+[FTP](ftp://google.com)
+
+[Relative](/google.com)
+
+[Onion](kjhadsygshad.onion)
+
+[Hash](#some-relative-link)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg
+
+
+## Plugins
+
+The killer feature of \`markdown-it\` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- 19^th^
+- H~2~O
+
+
+### [<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+
+### [<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
+
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+and multiple paragraphs.
+
+[^second]: Footnote text.
+
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+~ Definition 1
+
+Term 2
+~ Definition 2a
+~ Definition 2b
+
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: container
+*here be dragons*
+:::
 					</div>
 				</div>
 			</div>
@@ -92,7 +297,7 @@
 			– Frederico Knabben. All rights reserved.
 		</p>
 	</footer>
-	<script src="../build-scripts/ckeditor.js"></script>
+	<script src="./build-scripts/ckeditor.js"></script>
 	<script>
 		ClassicEditor
 			.create(document.querySelector('.editor'), {
