@@ -366,6 +366,9 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 			})
 			.then(editor => {
 				window.editor = editor;
+				editor.model.document.on('change:data', () => {
+					console.log(editor.getData())
+				});
 			})
 			.catch(error => {
 				console.error('Oops, something went wrong!');
